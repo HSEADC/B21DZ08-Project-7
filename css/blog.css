@@ -77,7 +77,7 @@
     box-sizing: border-box;
 }
 
-.empty__card {
+/* .empty__card {
     border-radius: 30px;
     background-color: rgba(255, 255, 255, 0.2);
     width: 504px;
@@ -87,7 +87,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-}
+} */
 
 .empty__card__content {
     font-weight: 500;
