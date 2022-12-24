@@ -1,0 +1,99 @@
+@import url("reset.css");
+@import url("common.css");
+
+.faculties {
+    padding: 128px 135px 146px;
+}
+@media screen and (max-width: 835px) {
+    .faculties {
+        padding: 60px 20px;
+    }
+}
+.faculties-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 158px;
+    row-gap: 92px;
+    justify-content: center;
+}
+
+.faculty__card {
+    border-radius: 30px;
+    background-color: white;
+    width: 504px;
+    height: 273px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+@media screen and (max-width: 835px) {
+    .facultiy__card {
+        width: 100%;  
+    }
+}
+.card__title {
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 40px;
+    text-transform: initial;
+    background-size: contain;
+}
+
+.title-1 {
+    background: url('../img/blog/title-1.png') center left no-repeat;
+    padding: 10px 23px 10px 11px;
+    max-width: 283px;
+}
+.title-2 {
+    background: url('../img/blog/title-2.png') center left no-repeat;
+    padding: 15px 5px 14px 8px;
+    font-size: 30px;
+    line-height: 36px;
+    max-width: 296px;
+
+}
+.title-3 {
+    background: url('../img/blog/title-3.png') center left no-repeat;
+    padding: 17px 15px 15px 10px;
+    max-width: 335px;
+}
+
+.card__btn {
+    width: 111px;
+    height: 34px;
+    border-radius: 70px;
+    cursor: pointer;
+    background-color: #D9D9D9;
+    padding: 8px 20px; 
+    border: none;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 17px;
+    text-decoration: none;
+    color: var(--col-black);
+    box-sizing: border-box;
+}
+
+.empty__card {
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 504px;
+    height: 273px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.empty__card__content {
+    font-weight: 500;
+    font-size: 113px;
+    line-height: 30px;
+    /* or 30px */
+    text-align: center;
+    color: black;
+}

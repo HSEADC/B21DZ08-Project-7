@@ -1,0 +1,287 @@
+@import url("reset.css");
+@import url("common.css");
+
+.title {
+    font-weight: 600;
+    font-size: 98px;
+    line-height: 115px;
+    margin-bottom: 116px;
+}
+.subtitle {
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 82px;
+    margin-top: 211px;
+    margin-bottom: 116px;
+}
+.text {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 57px;
+    max-width: 1100px;
+}
+.text-label {
+    font-size: 58px;
+    font-weight: 600;
+    line-height: 69px;
+}
+
+.h5 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+}
+
+section {
+    padding: 140px 130px;
+}
+
+.bg--green {
+    color: var(--col-white);
+}
+
+.banner {
+    height: 1240px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--col-black);
+    justify-content: center;
+}
+.banner .row {
+    z-index: 5;
+}
+.background {
+    z-index: 0;
+    height: 100%;
+}
+.banner__logo {
+    font-weight: 600;
+    font-size: 245px;
+    line-height: 288px;
+    color: var(--col-white);
+    text-transform: uppercase;
+}
+
+.banner__label {
+    margin-top: -35px;
+}
+
+.nav {
+    flex-direction: column;
+}
+
+.nav__link {
+    background: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 146%;
+    padding: 0;
+    border: none;
+}
+
+.concept {
+    color: var(--col-white);
+    padding: 140px 120px 116px;
+}
+
+.labels-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 198px;
+}
+.concept__label {
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 65px;
+    padding: 2px 18px 5px;
+    box-sizing: border-box;
+    border: 2px solid var(--col-white);
+    border-radius: 40px;
+}
+
+.concept__list {
+  margin-left: 45px;  
+}
+
+.concept__list-item {
+    list-style: auto;
+}
+
+.naiming__title {
+    color: var(--col-pink);
+}
+
+.tree-wrapper {
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.naiming__img {
+    margin-block: 30px;
+    height: 140px
+}
+
+
+.logo {
+    padding-bottom: 0;
+}
+.logo .title {
+    color: var(--col-pink);
+}
+
+.logo .text {
+    font-weight: 500;
+}
+
+.logo-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-inline: -130px;
+    width: 100vw;
+    margin-top: 310px;
+}
+.card {
+    width: 50%;
+    height: 1302px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg--pink {
+    background-color: var(--col-pink);
+}
+
+.typography {
+    background-color: var(--col-pink);
+    color: var(--col-white);
+}
+
+.typography .text-label {
+    margin-block: 130px ;
+}
+
+.text-wrapper {
+    display: flex;
+    flex-direction: row;
+    column-gap: 72px;
+    margin-bottom: 242px;
+}
+
+.text-wrapper .text {
+    width: 50%;
+}
+
+.headings-wrapper h2, .headings-wrapper h3, .headings-wrapper h4.text-label, .headings-wrapper h5 {
+    margin-block: 40px;
+}
+
+.typography .h5.with-line {
+    margin-top: 24px;
+    display: block;
+    padding-left: 51px;
+    line-height: 240px;
+    border-left: 3px solid var(--col-white);
+}
+
+.colors {
+    color: var(--col-white);
+}
+
+.colors p {
+    max-width: 881px;
+    line-height: 48px;
+}
+
+.colors-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 171px;
+    row-gap: 241px;
+    margin-top: 200px;
+}
+
+.colors-wrapper .card {
+    width: 500px;
+    height: 500px;
+    font-weight: 600;
+    font-size: 85px;
+    line-height: 100px;
+}
+
+.bg--white {
+    color: var(--col-black);
+}
+
+.colors-wrapper .card.bg--black {
+    border: 1px solid var(--col-white);
+}
+
+.grid {
+    color: var(--col-white);
+}
+
+.grid .row {
+    column-gap: 300px;
+}
+
+.grid .row:first-child {
+    margin-bottom: 393px;
+}
+
+.photos .title, .graphics .title {
+    color: var(--col-pink);
+}
+
+.photos .h5 {
+    margin-block: 300px;
+}
+
+.graphics__woman {
+    margin-left: 150px;
+}
+
+.graphics .h5 {
+    max-width: 803px;
+}
+
+.graphics .row {
+    height: 904px;
+    margin-inline: -130px;
+}
+
+.graphics .h5, .toneOfVoice .h5 {
+    max-width: 803px;
+}
+
+
+
+.carrier .column {
+    display: flex;
+    flex-direction: column;
+    row-gap: 200px;
+}
+
+
+.group--number {
+    border: 1px solid var(--col-black);
+}
+
+.subscribe__icons {
+    width: 287px;
+}
+
+.footer {
+    padding: 289px 128px 34px;
+}
+
+.uni--name {
+    text-transform: uppercase;
+}

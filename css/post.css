@@ -1,0 +1,108 @@
+@import url("reset.css");
+@import url("common.css");
+
+.post {
+    padding: 155px 100px 65px;
+}
+@media screen and (max-width: 1439px) {
+    .post {
+        padding: 110px 40px 40px;
+    }
+}
+@media screen and (max-width: 835px) {
+    .post {
+        padding: 45px 20px;
+    }
+}
+.post-wrapper {
+    margin-top: 126px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: 
+    "title title note"
+    "text text text"
+    "img img img";
+    column-gap: 80px;
+    row-gap: 60px;
+}
+@media screen and (max-width: 1439px) {
+    .post-wrapper {
+        margin-top: 25px;
+        grid-template-areas: 
+        "title title title"
+        "note note note"
+        "text text text"
+        "img img img";
+        row-gap: 30px;
+    }
+}
+@media screen and (max-width: 835px) {
+    .post-wrapper {
+        margin-top: 0;
+    }
+}
+.post__title {
+    grid-area: title;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 47px;
+    padding: 25px 20px;
+    color: var(--col-white);
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 26.4222px;
+    text-align: center;
+    text-transform: initial;
+}
+@media screen and (max-width: 835px) {
+    .post__title {
+        font-size: 24px;
+        line-height: 28px;
+        padding: 20px; 
+    }
+}
+.post__note {
+    grid-area: note;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 37px;
+    color: var(--col-white);
+    border: 3px solid var(--col-white);
+    border-radius: 21px;
+    text-align: center;
+    padding: 25px 30px;
+}
+@media screen and (max-width: 835px) {
+    .post__note {
+        font-size: 20px;
+        line-height: 24px;
+        padding: 20px; 
+    }
+}
+.post__text {
+    grid-area: text;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    background: rgba(255, 255, 255, 0.2);
+    color: var(--col-white);
+    border-radius: 49px;
+    padding: 70px 45px;
+}
+@media screen and (max-width: 835px) {
+    .post__text {
+        font-size: 18px;
+        line-height: 24px;
+        padding: 20px; 
+    }
+}
+.post__img {
+    grid-area: img;
+    border-radius: 80px;
+    max-width: 100%;
+}
+@media screen and (max-width: 835px) {
+    .post__back img {
+        width: 50px;
+    }
+}
+
